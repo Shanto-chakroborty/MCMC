@@ -14,7 +14,7 @@ int main()
            x=0;
 	   ofstream file("mcmc.dat");
 	
-	 for(n=100;n<=1000000;n=n+100)
+	 for(n=1;n<=1000000;n=n+50)
 	  {	
 	    double sum=0,sum2=0;
 	    for (k=0;k<n;k++)
